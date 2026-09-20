@@ -15,15 +15,17 @@ Below is an overview of what I've changed from the original YouTube webpage (not
 
 ### 🧩 Recommended browser extensions
 
-- **YouTube Auto HD**
-- **Hide Shorts for YouTube™**
-- **Return YouTube Dislike**
-- **Volume Booster for YouTube™**
-- **YouTube LiveChat Flusher (Danmaku Chat)**
-- **YouTube Screenshot**
-- **YouTube Livestreams Theater Mode**
-- **YouTube 繁體自動翻譯修正**
-
+- **YouTube Auto HD** Automatically sets videos to your preferred quality.
+- **Hide Shorts for YouTube™** Hides YouTube Shorts from the interface.
+- **Return YouTube Dislike** Restores estimated dislike counts on YouTube videos.
+- **Volume Booster for YouTube™** Boosts volume beyond YouTube’s default limit. Up to 400%.
+- **YouTube LiveChat Flusher (Danmaku Chat)** Automatically clears old live chat messages to keep chat readable.
+- **YouTube Screenshot** Captures video frames as screenshots with one click.
+- **YouTube Livestreams Theater Mode** A Theater Mode look like Twitch. 
+- **YouTube 繁體自動翻譯修正** Fixed Traditional Chinese auto-translated subtitles.
+- **SponsorBlock** Skips sponsor segments and other marked sections using community data.
+- **DeArrow** Replaces clickbait titles and thumbnails with community-made alternatives.
+- 
 ### 🎨 Violentmonkey custom CSS userscript
 
 I don't think I can share my custom Violentmonkey CSS userscript, since it might break GitHub's rules — I've heavily modified and rewritten other people's code to fit exactly what I want, so it's no longer really "theirs" to redistribute cleanly.
@@ -50,14 +52,6 @@ But, I can suggest what i installed and recommand for you:
 | YTBetter - Enable Rewind/DVR | copyMister | 3.0 | 6k | 324d ago |
 
 > ⚠️ **Heads up on `YTBetter - Enable Rewind/DVR`:** this one actually works — it lets you scrub back through a live stream like real DVR footage. But there's a bug: with it enabled, YouTube comments won't load, and the homepage stops loading more videos when you scroll down. Install at your own risk!
-
-I don't think I can share my custom Violentmonkey CSS userscript, since it might break GitHub's rules — I've heavily modified and rewritten other people's code to fit exactly what I want, so it's no longer really "theirs" to redistribute cleanly.
-
-But, I can suggest what you should install:
-
-- **SponsorBlock** — crowdsourced sponsor/intro/outro segment skipping, pairs naturally with your chat/UI tweaks
-- **DeArrow** — crowdsourced non-clickbait titles and thumbnails, complements your Thumbnail Unfucker script
-
 
 ### 🚫 Custom uBlock filters
 
@@ -127,15 +121,17 @@ This is just my personal script which may not be the best fit for you. Use it at
 
 ### 🧩 推薦安裝的擴充功能
 
-- **YouTube Auto HD**
-- **Hide Shorts for Youtube™**
-- **Return YouTube Dislike**
-- **Volume Booster for YouTube™**
-- **YouTube LiveChat Flusher（彈幕聊天室）**
-- **YouTube Screenshot**
-- **YouTube Livestreams Theater Mode**
-- **YouTube 繁體自動翻譯修正**
-
+- **YouTube Auto HD** 自動將影片設為你偏好的畫質。(強制)
+- **Hide Shorts for Youtube™** 隱藏 YouTube Shorts 內容與入口。
+- **Return YouTube Dislike** 恢復顯示 YouTube 影片的估算倒讚數。
+- **Volume Booster for YouTube™** 將音量提升至高於 YouTube 預設上限。400%
+- **YouTube LiveChat Flusher（彈幕聊天室）** 自動清除舊聊天室訊息，讓直播聊天更清爽。
+- **YouTube Screenshot** 一鍵擷取影片畫面為截圖。
+- **YouTube Livestreams Theater Mode** 一種類似Twitch的劇院模式。
+- **YouTube 繁體自動翻譯修正** 修復繁體中文自動翻譯字幕品質壞掉問題。
+- **SponsorBlock** 透過社群標記自動跳過贊助、片頭、片尾等片段。
+- **DeArrow** 以社群提供的非釣魚標題與縮圖取代原版本。
+- 
 ### 🎨 Violentmonkey 自訂 CSS userscript
 
 我目前應該沒辦法分享我自己的 Violentmonkey 自訂 CSS userscript，因為這樣可能會違反 GitHub 的規範——我已經對別人的程式碼做了大量修改和重寫，改成我自己喜歡的樣子，所以已經不太算是原本「別人的」東西可以乾淨地轉發了。
@@ -162,13 +158,6 @@ This is just my personal script which may not be the best fit for you. Use it at
 | YTBetter - Enable Rewind/DVR | copyMister | 3.0 | 6k | 324 天前 |
 
 > ⚠️ **關於 `YTBetter - Enable Rewind/DVR` 的注意事項：** 這個腳本真的有效——可以像 DVR 一樣拖回直播的過去畫面。但有個 bug：啟用後留言區不會載入，首頁往下滾動也不會繼續讀取影片。安裝請自行承擔風險！
-
-我目前應該沒辦法分享我自己的 Violentmonkey 自訂 CSS userscript，因為這樣可能會違反 GitHub 的規範——我已經對別人的程式碼做了大量修改和重寫，改成我自己喜歡的樣子，所以已經不太算是原本「別人的」東西可以乾淨地轉發了。
-
-不過，我可以建議你可以安裝這些：
-
-- **SponsorBlock** — 群眾協作標記並跳過贊助／片頭／片尾段落，跟你的聊天室／介面調整腳本很搭
-- **DeArrow** — 群眾協作提供不釣魚的標題與縮圖，跟你的 Thumbnail Unfucker 腳本互補
 
 ### 🚫 自訂 uBlock 過濾規則
 
