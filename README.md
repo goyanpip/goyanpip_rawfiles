@@ -15,16 +15,16 @@ Below is an overview of what I've changed from the original YouTube webpage (not
 
 ### 🧩 Recommended browser extensions
 
-- **YouTube Auto HD** Automatically sets videos to your preferred quality.
-- **Hide Shorts for YouTube™** Hides YouTube Shorts from the interface.
-- **Return YouTube Dislike** Restores estimated dislike counts on YouTube videos.
-- **Volume Booster for YouTube™** Boosts volume beyond YouTube’s default limit. Up to 400%.
-- **YouTube LiveChat Flusher (Danmaku Chat)** Automatically clears old live chat messages to keep chat readable.
-- **YouTube Screenshot** Captures video frames as screenshots with one click.
-- **YouTube Livestreams Theater Mode** A Theater Mode look like Twitch. 
-- **YouTube 繁體自動翻譯修正** Fixed Traditional Chinese auto-translated subtitles.
-- **SponsorBlock** Skips sponsor segments and other marked sections using community data.
-- **DeArrow** Replaces clickbait titles and thumbnails with community-made alternatives.
+- **YouTube Auto HD** ー Automatically sets videos to your preferred quality.
+- **Hide Shorts for YouTube™** ー Hides YouTube Shorts from the interface.
+- **Return YouTube Dislike** ー Restores estimated dislike counts on YouTube videos.
+- **Volume Booster for YouTube™** ー Boosts volume beyond YouTube’s default limit. Up to 400%.
+- **YouTube LiveChat Flusher ー (Danmaku Chat)** Automatically clears old live chat messages to keep chat readable.
+- **YouTube Screenshot** ー Captures video frames as screenshots with one click.
+- **YouTube Livestreams Theater Mode** ー A Theater Mode look like Twitch. 
+- **YouTube 繁體自動翻譯修正** ー Fixed Traditional Chinese auto-translated subtitles.
+- **SponsorBlock** ー Skips sponsor segments and other marked sections using community data.
+- **DeArrow** ー Replaces clickbait titles and thumbnails with community-made alternatives.
 
 
 ### 🎨 Violentmonkey custom CSS userscript
@@ -78,7 +78,7 @@ I can't share the actual CSS — this is the part I've customized the most and d
 - YouTube Grid 5
 - 垃圾圓角
 - 3 row Manage Channels Subscriptions - Jan 2024
-- DLLM sidebar咁撚大 (jm91.0.1)
+- DLLM sidebar咁撚大 (jm91.0.1) <--- My own css lol (Not going to Public)
 - Focus by BlazingMedia for YouTube Music
 - More Thumbnails per row [YouTube] (1.2.5)
 - No Rounded YouTube
@@ -125,16 +125,16 @@ This is just my personal script which may not be the best fit for you. Use it at
 
 ### 🧩 推薦安裝的擴充功能
 
-- **YouTube Auto HD** 自動將影片設為你偏好的畫質。(強制)
-- **Hide Shorts for Youtube™** 隱藏 YouTube Shorts 內容與入口。
-- **Return YouTube Dislike** 恢復顯示 YouTube 影片的估算倒讚數。
-- **Volume Booster for YouTube™** 將音量提升至高於 YouTube 預設上限。400%
-- **YouTube LiveChat Flusher（彈幕聊天室）** 自動清除舊聊天室訊息，讓直播聊天更清爽。
-- **YouTube Screenshot** 一鍵擷取影片畫面為截圖。
-- **YouTube Livestreams Theater Mode** 一種類似Twitch的劇院模式。
-- **YouTube 繁體自動翻譯修正** 修復繁體中文自動翻譯字幕品質壞掉問題。
-- **SponsorBlock** 透過社群標記自動跳過贊助、片頭、片尾等片段。
-- **DeArrow** 以社群提供的非釣魚標題與縮圖取代原版本。
+- **YouTube Auto HD** ー 自動將影片設為你偏好的畫質。(強制)
+- **Hide Shorts for Youtube™** ー 隱藏 YouTube Shorts 內容與入口。
+- **Return YouTube Dislike** ー 恢復顯示 YouTube 影片的估算倒讚數。
+- **Volume Booster for YouTube™** ー 將音量提升至高於 YouTube 預設上限。400%
+- **YouTube LiveChat Flusher** ー 自動清除舊聊天室訊息，讓直播聊天更清爽。
+- **YouTube Screenshot** ー 一鍵擷取影片畫面為截圖。
+- **YouTube Livestreams Theater Mode** ー 一種類似Twitch的劇院模式。
+- **YouTube 繁體自動翻譯修正** ー 修復繁體中文自動翻譯字幕品質壞掉問題。
+- **SponsorBlock** ー 透過社群標記自動跳過贊助、片頭、片尾等片段。
+- **DeArrow** ー 以社群提供的非釣魚標題與縮圖取代原版本。
 
 
 ### 🎨 Violentmonkey 自訂 CSS userscript
@@ -188,7 +188,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - YouTube Grid 5
 - 垃圾圓角
 - 3 row Manage Channels Subscriptions - Jan 2024
-- DLLM sidebar咁撚大 (jm91.0.1)
+- DLLM sidebar咁撚大 (jm91.0.1) <-- 我自己的私人css超好笑（不打算公開）
 - Focus by BlazingMedia for YouTube Music
 - More Thumbnails per row [YouTube] (1.2.5)
 - No Rounded YouTube
