@@ -26,6 +26,7 @@ Below is an overview of what I've changed from the original YouTube webpage (not
 - **SponsorBlock** Skips sponsor segments and other marked sections using community data.
 - **DeArrow** Replaces clickbait titles and thumbnails with community-made alternatives.
 
+
 ### 🎨 Violentmonkey custom CSS userscript
 
 I don't think I can share my custom Violentmonkey CSS userscript, since it might break GitHub's rules — I've heavily modified and rewritten other people's code to fit exactly what I want, so it's no longer really "theirs" to redistribute cleanly.
@@ -53,6 +54,7 @@ But, I can suggest what i installed and recommand for you:
 
 > ⚠️ **Heads up on `YTBetter - Enable Rewind/DVR`:** this one actually works — it lets you scrub back through a live stream like real DVR footage. But there's a bug: with it enabled, YouTube comments won't load, and the homepage stops loading more videos when you scroll down. Install at your own risk!
 
+
 ### 🚫 Custom uBlock filters
 
 This is my **favourite part** — it fixes all the freaking bloated YouTube layout garbage that's ever been created. For example:
@@ -65,7 +67,8 @@ This is my **favourite part** — it fixes all the freaking bloated YouTube layo
 - **`www.youtube.com##ytd-merch-shelf-renderer`** — removes the merch shelf under videos.
 - **`www.youtube.com##ytd-ad-slot-renderer`** — general ad-slot container hider (test carefully, this can be broad).
 
-- ### 🎨 Stylus — my YouTube theme (the real heavy lifting)
+
+### 🎨 Stylus — my YouTube theme (the real heavy lifting)
 
 I also use Stylus, and honestly this is the heaviest, most-modified part of my whole setup — more than any single userscript. This is basically my custom YouTube visual theme, the direct UI/visual layer on top of everything else: all-round removal of rounded corners, an OLED dark theme, a compact sidebar on the subscriptions page, hidden bottom YouTube info bar, hidden YouTube Music and Studio tabs (useless to me), auto-hiding sidebar, disabled thumbnail hover previews, the old classic (2022-era) video player, a live-stream clock next to the player controls, an OLED player button menu, and a lot more on top of that.
 
@@ -104,6 +107,7 @@ I can't share the actual CSS — this is the part I've customized the most and d
 - 目前能用的直角icon修正
 - 移除高斯模糊
 
+
 ### 📄 License / Notes
 
 This is just my personal script which may not be the best fit for you. Use it at your own risk! Remember to adjust things to your preference before you use it.
@@ -132,6 +136,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - **SponsorBlock** 透過社群標記自動跳過贊助、片頭、片尾等片段。
 - **DeArrow** 以社群提供的非釣魚標題與縮圖取代原版本。
 
+
 ### 🎨 Violentmonkey 自訂 CSS userscript
 
 我目前應該沒辦法分享我自己的 Violentmonkey 自訂 CSS userscript，因為這樣可能會違反 GitHub 的規範——我已經對別人的程式碼做了大量修改和重寫，改成我自己喜歡的樣子，所以已經不太算是原本「別人的」東西可以乾淨地轉發了。
@@ -159,6 +164,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 
 > ⚠️ **關於 `YTBetter - Enable Rewind/DVR` 的注意事項：** 這個腳本真的有效——可以像 DVR 一樣拖回直播的過去畫面。但有個 bug：啟用後留言區不會載入，首頁往下滾動也不會繼續讀取影片。安裝請自行承擔風險！
 
+
 ### 🚫 自訂 uBlock 過濾規則
 
 這是我**最喜歡的部分**——可以把所有 YouTube 曾經做過的那些爛透了、沒用的版面垃圾全部幹掉。舉例來說：
@@ -170,6 +176,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - **`youtube.com##ytd-popup-container:has(yt-mealbar-promo-renderer)`** — 更廣泛地攔截 Premium 促銷彈窗。
 - **`www.youtube.com##ytd-merch-shelf-renderer`** — 移除影片下方的周邊商品貨架區塊。
 - **`www.youtube.com##ytd-ad-slot-renderer`** — 通用廣告版位隱藏規則（此規則範圍較廣，請謹慎測試）。
+
 
 ### 🎨 Stylus — 我的 YouTube 主題（真正花最多心力的部分）
 
@@ -209,6 +216,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - 改變佈局/收窄sidebar (1.3.4)
 - 目前能用的直角icon修正
 - 移除高斯模糊
+
 
 ### 📄 授權／備註
 
