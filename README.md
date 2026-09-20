@@ -25,7 +25,7 @@ Below is an overview of what I've changed from the original YouTube webpage (not
 - **YouTube 繁體自動翻譯修正** Fixed Traditional Chinese auto-translated subtitles.
 - **SponsorBlock** Skips sponsor segments and other marked sections using community data.
 - **DeArrow** Replaces clickbait titles and thumbnails with community-made alternatives.
-- 
+
 ### 🎨 Violentmonkey custom CSS userscript
 
 I don't think I can share my custom Violentmonkey CSS userscript, since it might break GitHub's rules — I've heavily modified and rewritten other people's code to fit exactly what I want, so it's no longer really "theirs" to redistribute cleanly.
@@ -131,7 +131,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - **YouTube 繁體自動翻譯修正** 修復繁體中文自動翻譯字幕品質壞掉問題。
 - **SponsorBlock** 透過社群標記自動跳過贊助、片頭、片尾等片段。
 - **DeArrow** 以社群提供的非釣魚標題與縮圖取代原版本。
-- 
+
 ### 🎨 Violentmonkey 自訂 CSS userscript
 
 我目前應該沒辦法分享我自己的 Violentmonkey 自訂 CSS userscript，因為這樣可能會違反 GitHub 的規範——我已經對別人的程式碼做了大量修改和重寫，改成我自己喜歡的樣子，所以已經不太算是原本「別人的」東西可以乾淨地轉發了。
