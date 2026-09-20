@@ -5,6 +5,9 @@
 ---
 
 <a id="english"></a>
+
+<img width="3839" height="1921" alt="190233" src="https://github.com/user-attachments/assets/1ccb43b4-2966-4b37-a0a5-5d76cfd8dc00" />
+
 ## 🇬🇧 English
 
 This is my personal userscript and custom CSS for modifying HTML5 and YouTube. Recent YouTube has basically become unusable for me — they keep changing things, removing useful features, and shoving in useless "features" all the freaking time, and it drives me mad. So I've heavily modified the YouTube client into what I actually want, in the way that works best for me to watch videos and vtubers.
