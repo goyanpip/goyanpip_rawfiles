@@ -34,18 +34,11 @@ This is my **favourite part** — it fixes all the freaking bloated YouTube layo
 
 - Removes the YouTube "about" info clutter
 - Cleans up the in-video player right-click menu (removes useless entries like "Copy embed code," "Copy debug info," and "Troubleshoot playback issues")
-- Removes the fullscreen top-right overlay of like/dislike and the live chat tab (so freaking useless and stupid!!!!!)
-
-### 💡 Suggested additions / ideas for expanding this
-
-Since you asked for more feature ideas, here are a few directions worth considering for future entries (not yet implemented — just suggestions):
-
+- Removes the fullscreen top-right overlay of like/dislike and the live chat tab
 - **`youtube.com##ytd-mealbar-promo-renderer`** — hides the "Try YouTube Premium" mealbar popup that appears mid-browsing.
 - **`youtube.com##ytd-popup-container:has(yt-mealbar-promo-renderer)`** — broader catch for Premium upsell popups.
 - **`www.youtube.com##ytd-merch-shelf-renderer`** — removes the merch shelf under videos.
 - **`www.youtube.com##ytd-ad-slot-renderer`** — general ad-slot container hider (test carefully, this can be broad).
-- Consider splitting the filter list into logical sections (YouTube / Google / Social / Misc) with clear headers, since the list has grown quite large and is getting hard to scan.
-- A **changelog table** at the bottom (date, site, what was fixed) might be more readable than inline `!` date comments once the list gets even longer.
 
 ### 📄 License / Notes
 
@@ -83,26 +76,11 @@ This is just my personal script which may not be the best fit for you. Use it at
 
 - 移除 YouTube 影片「關於」資訊那堆雜訊
 - 清理影片播放器右鍵選單（移除「複製嵌入程式碼」、「複製偵錯資訊」、「排解播放問題」這種沒用的項目）
-- 移除全螢幕右上角那個讚/倒讚以及聊天室分頁的浮動覆蓋層（超級沒用又白痴的東西！！！！！）
-
-完整、最新的過濾清單如下，直接複製貼到 uBlock Origin 的自訂過濾器裡即可。
-
-```
-（完整過濾清單請見上方英文版本，內容完全相同，包含所有網站規則、日期註記以及最新的 2026 年 9 月 20 日更新項目。由於清單本身是網址／選擇器代碼，中英版本共用同一份，故不在此重複列出以避免文件過長。）
-```
-
-> 📌 若你只需要中文版檔案本身，建議直接開啟上方英文段落中的完整過濾器區塊複製使用——規則本身沒有語言之分，兩個版本完全通用。
-
-### 💡 可以考慮加入的新功能／想法
-
-既然你希望我分析並加入更多功能想法，這裡列出幾個之後可以考慮加入的方向（目前尚未實作，僅供參考）：
-
+- 移除全螢幕右上角那個讚/倒讚以及聊天室分頁的浮動覆蓋層
 - **`youtube.com##ytd-mealbar-promo-renderer`** — 隱藏瀏覽途中彈出的「試用 YouTube Premium」促銷條。
 - **`youtube.com##ytd-popup-container:has(yt-mealbar-promo-renderer)`** — 更廣泛地攔截 Premium 促銷彈窗。
 - **`www.youtube.com##ytd-merch-shelf-renderer`** — 移除影片下方的周邊商品貨架區塊。
 - **`www.youtube.com##ytd-ad-slot-renderer`** — 通用廣告版位隱藏規則（此規則範圍較廣，請謹慎測試）。
-- 建議把過濾清單依邏輯分區（YouTube／Google／社群媒體／其他），因為清單已經越來越長，用日期註解已經有點難以瀏覽。
-- 未來清單再增長的話，或許在文件最下方加一個**更新記錄表格**（日期、網站、修改內容）會比目前用 `!` 開頭的日期註解更好讀。
 
 ### 📄 授權／備註
 
