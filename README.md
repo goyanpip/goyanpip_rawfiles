@@ -7,7 +7,7 @@
 <a id="english"></a>
 ## 🇬🇧 English
 
-This is my personal userscript and custom CSS for modifying HTML5 and YouTube. Recent YouTube has basically become unusable for me — they keep changing things, removing useful features, and shoving in useless "features" all the freaking time, and it drives me mad. So I've heavily modified the YouTube client into what I actually want, in the way that works best for me.
+This is my personal userscript and custom CSS for modifying HTML5 and YouTube. Recent YouTube has basically become unusable for me — they keep changing things, removing useful features, and shoving in useless "features" all the freaking time, and it drives me mad. So I've heavily modified the YouTube client into what I actually want, in the way that works best for me to watch videos and vtubers.
 
 Below is an overview of what I've changed from the original YouTube webpage (note: **not** using VoraPis V3 / legacy YouTube plugins, etc.).
 
@@ -15,11 +15,11 @@ Below is an overview of what I've changed from the original YouTube webpage (not
 
 ### 🧩 Recommended browser extensions
 
-- **YouTube Auto HD** ー Automatically sets videos to your preferred quality.
+- **YouTube Auto HD** ー Automatically sets videos to your preferred quality. (Force)
 - **Hide Shorts for YouTube™** ー Hides YouTube Shorts from the interface.
 - **Return YouTube Dislike** ー Restores estimated dislike counts on YouTube videos.
 - **Volume Booster for YouTube™** ー Boosts volume beyond YouTube’s default limit. Up to 400%.
-- **YouTube LiveChat Flusher ー (Danmaku Chat)** Automatically clears old live chat messages to keep chat readable.
+- **YouTube LiveChat Flusher ー (Danmaku Chat)** Youtube Danmaku-style chat. Like Niconico.
 - **YouTube Screenshot** ー Captures video frames as screenshots with one click.
 - **YouTube Livestreams Theater Mode** ー A Theater Mode look like Twitch. 
 - **YouTube 繁體自動翻譯修正** ー Fixed Traditional Chinese auto-translated subtitles.
@@ -128,8 +128,8 @@ This is just my personal script which may not be the best fit for you. Use it at
 - **YouTube Auto HD** ー 自動將影片設為你偏好的畫質。(強制)
 - **Hide Shorts for Youtube™** ー 隱藏 YouTube Shorts 內容與入口。
 - **Return YouTube Dislike** ー 恢復顯示 YouTube 影片的估算倒讚數。
-- **Volume Booster for YouTube™** ー 將音量提升至高於 YouTube 預設上限。400%
-- **YouTube LiveChat Flusher** ー 自動清除舊聊天室訊息，讓直播聊天更清爽。
+- **Volume Booster for YouTube™** ー 將音量提升至高於 YouTube 預設上限。上限400%
+- **YouTube LiveChat Flusher** ー Youtube彈幕功能。跟Niconico一樣
 - **YouTube Screenshot** ー 一鍵擷取影片畫面為截圖。
 - **YouTube Livestreams Theater Mode** ー 一種類似Twitch的劇院模式。
 - **YouTube 繁體自動翻譯修正** ー 修復繁體中文自動翻譯字幕品質壞掉問題。
