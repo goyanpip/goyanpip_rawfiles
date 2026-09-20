@@ -76,7 +76,7 @@ I can't share the actual CSS — this is the part I've customized the most and d
 
 - YouTube - Create Your Theme (1.8.5)
 - YouTube Grid 5
-- 垃圾圓角
+- 垃圾圓角 <--- My own css
 - 3 row Manage Channels Subscriptions - Jan 2024
 - DLLM sidebar咁撚大 (jm91.0.1) <--- My own css lol (Not going to Public)
 - Focus by BlazingMedia for YouTube Music
@@ -89,7 +89,7 @@ I can't share the actual CSS — this is the part I've customized the most and d
 - restore corners
 - Revert YouTube Studio UI (1.0.6)
 - Roundless YouTube
-- toolbar修正位置 (5.0.0)
+- toolbar修正位置 (5.0.0) <--- My own css
 - YCS Extended
 - youtube - HTML5 player upgrade
 - YouTube for Normal People (1.6.13)
@@ -99,13 +99,13 @@ I can't share the actual CSS — this is the part I've customized the most and d
 - Youtube Studio 低評価非表示 (Hide low ratings on dashboard)
 - YouTube 側邊欄極致優化
 - YouTube 訂閱欄窄版 (1.0.5)
-- YouTube播放bar救星
+- YouTube播放bar救星 <--- My own css
 - YT - Revert classic 'Subscribed' notification icon
 - YT Fixes (1.4.8)
-- 搜尋美化
-- 改變佈局/收窄sidebar (1.3.4)
-- 目前能用的直角icon修正
-- 移除高斯模糊
+- 搜尋美化 <--- My own css
+- 改變佈局/收窄sidebar (1.3.4) <--- My own css
+- 目前能用的直角icon修正 <--- My own css
+- 移除高斯模糊 <--- My own css
 
 
 ### 📄 License / Notes
@@ -186,9 +186,9 @@ This is just my personal script which may not be the best fit for you. Use it at
 
 - YouTube - Create Your Theme (1.8.5)
 - YouTube Grid 5
-- 垃圾圓角
+- 垃圾圓角 <-- 私人css
 - 3 row Manage Channels Subscriptions - Jan 2024
-- DLLM sidebar咁撚大 (jm91.0.1) <-- 我自己的私人css超好笑（不打算公開）
+- DLLM sidebar咁撚大 (jm91.0.1) <-- 私人css超好笑（不打算公開）
 - Focus by BlazingMedia for YouTube Music
 - More Thumbnails per row [YouTube] (1.2.5)
 - No Rounded YouTube
@@ -199,7 +199,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - restore corners
 - Revert YouTube Studio UI (1.0.6)
 - Roundless YouTube
-- toolbar修正位置 (5.0.0)
+- toolbar修正位置 (5.0.0) <-- 私人css
 - YCS Extended
 - youtube - HTML5 player upgrade
 - YouTube for Normal People (1.6.13)
@@ -212,11 +212,10 @@ This is just my personal script which may not be the best fit for you. Use it at
 - YouTube播放bar救星
 - YT - Revert classic 'Subscribed' notification icon
 - YT Fixes (1.4.8)
-- 搜尋美化
-- 改變佈局/收窄sidebar (1.3.4)
-- 目前能用的直角icon修正
-- 移除高斯模糊
-
+- 搜尋美化 <-- 私人css
+- 改變佈局/收窄sidebar (1.3.4) <-- 私人css
+- 目前能用的直角icon修正 <-- 私人css
+- 移除高斯模糊 <-- 私人css
 
 ### 📄 授權／備註
 
