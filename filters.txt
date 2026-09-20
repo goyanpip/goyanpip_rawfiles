@@ -1,0 +1,293 @@
+! 2026年4月14日 https://www.startpage.com
+www.startpage.com##.css-l2z3nx.support-banner
+www.startpage.com##.css-ddakpz.w-gl-attribution
+
+! 2026年4月15日 https://gemini.google.com
+gemini.google.com##.ng-star-inserted.footer-container
+
+! 2026年4月15日 https://www.youtube.com
+www.youtube.com###thumbDiv > .ytd-video-primary-info-renderer.title
+www.youtube.com###text > .yt-formatted-string.style-scope.yt-simple-endpoint
+www.youtube.com###country-code
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(6)
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###copyright
+
+! 2026年4月15日 https://www.bilibili.com
+www.bilibili.com##.bili-header__channel
+
+! 2026年4月25日 https://www.youtube.com
+
+
+! 2026年5月3日 https://www.ebay.co.uk
+www.ebay.co.uk##.sEOT.jYtu
+
+! 2026年5月10日 https://www.google.com
+www.google.com##.YNk70c.TrMVnc.f6F9Be
+www.google.com##.mzYw6b.wHYlTd.vqkKIe
+www.google.com##.TPKH4e.O4T6Pe
+www.google.com###slim_appbar
+
+! 2026年5月10日 https://www.startpage.com
+www.startpage.com##.css-22ghqk.private-search-dropdown
+www.startpage.com##.eu3pp1u0.css-ntpuhp
+||cdn.startpage.com/sp/cdn/images/filter-toggle-dark.svg$image
+
+! 2026年5月13日 https://live.nicovideo.jp
+live.nicovideo.jp##.___ad-sticky-video___XC_Cg.___ad-sticky-video___KZcuJ
+
+! 2026年5月20日 https://www.ebay.co.uk
+
+youtube.com##.ytp-gradient-top
+youtube.com##.ytp-gradient-bottom
+youtube.com##.player-controls-background
+
+www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
+
+
+! --- YouTube 側邊欄重新排序開始 ---
+! 1. 開啟側邊欄容器的 Flexbox 模式 (讓內容可以重新排序)
+www.youtube.com##ytd-guide-renderer #sections:style(display: flex !important; flex-direction: column !important;)
+
+! 2. 設定「首頁」區塊在第 1 位 (通常是第一個區塊)
+www.youtube.com##ytd-guide-renderer #sections > ytd-guide-section-renderer:first-child:style(order: 1 !important;)
+
+! 3. 設定「個人中心」(觀看紀錄、播放清單) 在第 2 位
+! 這裡使用 has-text 來抓取標題含有 "個人中心" 的區塊
+www.youtube.com##ytd-guide-renderer #sections > ytd-guide-section-renderer:has-text(個人中心):style(order: 2 !important;)
+
+! 4. 設定「訂閱組別」(PocketTube 等擴充功能) 在第 3 位
+! 針對擴充功能插入的區塊，使用通用選取器搭配文字偵測
+www.youtube.com##ytd-guide-renderer #sections > *:has-text(訂閱組別):style(order: 3 !important;)
+
+! 5. 設定「訂閱內容」(落落長的頻道列表) 在最後一位
+www.youtube.com##ytd-guide-renderer #sections > ytd-guide-section-renderer:has-text(訂閱內容):style(order: 100 !important;)
+
+! 微調：給個人中心和下方區塊一點間距，避免貼太緊 (選用)
+www.youtube.com##ytd-guide-renderer #sections > ytd-guide-section-renderer:has-text(個人中心):style(border-bottom: 1px solid rgba(255,255,255,0.1) !important; margin-bottom: 10px !important;)
+! --- YouTube 側邊欄重新排序結束 ---
+
+! 2025年11月27日 https://www.youtube.com
+www.youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--disable-text-ellipsis.yt-spec-button-shape-next--icon-leading-trailing.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com##yt-multi-page-menu-section-renderer.ytd-multi-page-menu-renderer.style-scope:nth-of-type(5)
+
+! 移除聊天室頂部的「歡迎來到聊天室！請記得保護自己的隱私...」
+www.youtube.com##yt-live-chat-viewer-engagement-message-renderer
+
+! 2025年11月27日 https://www.youtube.com
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(7)
+www.youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+
+account.apple.com##.ribbon-content-wrapper
+apcs.guide##.dark\:text-yellow-100.dark\:bg-yellow-800.text-yellow-900.text-center.p-2.bg-yellow-200.border-origin-gray.border-b
+app.humanornot.ai##.pt-3.hon-wordtune-block.w100.mt-2
+artsandculture.google.com##.iMnvWc
+console.cloud.google.com###free-trial-banner
+ddlc.moe##.plus-banner
+dictionary.cambridge.org##.login-promo-block.lmb-25.lpt-20.lp-15.bo.pr
+dm.reddit.com##.premium-banner
+dotfyle.com###subscribe
+dotfyle.com##.mt-8.gap-4.sm\:px-4.px-4.sm\:mt-4.w-full.xl\:max-w-7xl.max-w-full.flex-col.flex
+drive.google.com##.Wmhurf
+drive.google.com##.ml-Pr-kg
+drive.google.com##.oLzOxb
+duckduckgo.com###features
+duckduckgo.com##.TccjmKV6RraCaCw5L9gd
+duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.minimal-homepage_exploreFeatureScroller__TL5Vx.homepage-cta-section_scrollCta__HuSCL
+duckduckgo.com##.eRjZTOsvr6gqJe3E2Yc6
+duckduckgo.com##.feedback-prompt
+duckduckgo.com##.footer
+duckduckgo.com##.header--aside__item--hidden-lg.header--aside__item
+duckduckgo.com##.is-showing.js-welcome-wrap.welcome-wrap
+duckduckgo.com##.js-header-aside.header--aside
+duckduckgo.com##.js-serp-bottom-right.serp__bottom-right
+duckduckgo.com##.minimal-homepage_taglineText__owJPH
+duckduckgo.com##.react-feedback-prompt-mvc-wrapper--images.react-feedback-prompt-mvc-wrapper
+duckduckgo.com##.spread-cta--has-top-margin.ia-module--spread-cta.module
+duckduckgo.com##.t-m.related-searches
+duckduckgo.com##.uNpNxLjmZNNGnlkDPAcl
+duckduckgo.com##li.zcm__item:nth-of-type(4)
+duckduckgo.com##section.sideMenu_section__SRgeu:nth-of-type(2)
+duckduckgo.com##section.sideMenu_section__SRgeu:nth-of-type(4)
+duckduckgo.com##section.sideMenu_section__SRgeu:nth-of-type(5)
+en.wikipedia.org##.vector-sitenotice-container
+github.com###sponsor-profile-button
+github.com##.AppHeader-CopilotChat
+github.com##.copilotPreview__container
+github.com##.d-md-block.d-none.mt-3.pt-3.color-border-muted.border-top > .mt-2
+github.com##.hTYflC.Box-sc-g0xbh4-0
+github.com##.hide-md.hide-sm.clearfix.mt-3.pt-3.color-border-muted.border-top
+github.com##.imruoV.Box-sc-g0xbh4-0
+github.com##.js-notice
+github.com##.react-directory-remove-file-icon > .hTqPVk.types__StyledButton-sc-ws60qy-0
+github.com##.text-medium.text-center.px-lg-8.px-md-5.px-4.fgColor-onEmphasis.lh-condensed.position-relative.d-block.global-banner
+github.com##div.BorderGrid-row:nth-of-type(3) > .BorderGrid-cell
+github.com##div.mt-2:nth-of-type(5)
+github.com##show-dialog-on-load
+hackmd.io##.sidenav-menu-link.cursor-pointer
+imgur.com##.Footer-wrapper
+imgur.com##.ab-modal-interactions.ab-html-message.ab-in-app-message
+itch.io##.anon_intro
+itch.io##.anon_intro
+itch.io##.app_banner
+itsfoss.com##.gh-portal-close.radius.btn--brand.signup-link.btn
+jamboard.google.com##.jam-bar-banner
+learning.edx.org##.mb-4.card.small.upgrade-notification
+lichess.org##.site-title-nav__donate
+limetorrents.torrentbay.st##[href="https://gamestoday.org/"]
+localhost##div.container:nth-of-type(3)
+mail.google.com###gbwa > .gb_f > .gb_d
+mail.google.com##.aUx
+mail.google.com##.t6.gb_ne.gb_ke.gb_me
+mail.google.com##.zo
+mail.google.com##div.nH:nth-of-type(4)
+mail.proton.me##.button-promotion--yellow.button-promotion.items-center.flex.max-w-full.text-center.inline-block.button-pill.button-outline-weak.button-medium.button
+mail.proton.me##.empty\:hidden.items-center.flex-nowrap.flex.gap-1.ml-2.my-0.unstyled.topnav-list > div
+mail.proton.me##.relative.bg-promotion.shrink-0.flex-nowrap.flex
+mail.proton.me##.relative.mb-4.mx-4.shadow-norm.border-weak.border.rounded-lg.flex-none.flex.group-hover-opacity-container.tip-box
+mail.proton.me##.shrink-0.apps-dropdown-button
+mail.proton.me##.topnav-listItem--noCollapse.topnav-listItem
+mail.proton.me##div:nth-of-type(2) > .flex.button-ghost-weak.button-medium.button-for-icon.button
+mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(1)
+mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(2)
+medium.com##.rq.rp.ro.m
+meet.jit.si###moderated-meetings
+meet.jit.si##.welcome-cards-container
+mzh.moegirl.org.cn##.n-message-container--top.n-message-container
+mzh.moegirl.org.cn##.n-notification-container--top-right.n-notification-container--scrollable.n-notification-container
+mzh.moegirl.org.cn##.toolbar-inner-container
+old.reddit.com##.footer-parent
+old.reddit.com##.giftgold
+old.reddit.com##.premium-banner
+openuserjs.org##.btn-donate.btn
+pixnet.net###footer
+pixnet.net###header
+pixnet.net###idle-pop
+pixnet.net###links
+pixnet.net###pilot
+pixnet.net###pix-ad-related-post-desktop
+pixnet.net###trialsquad-post
+pixnet.net###user-post
+pixnet.net##.article-footer
+pixnet.net##.author
+pixnet.net##.author-profile
+pixnet.net##.bookmark
+pixnet.net##.forward
+pixnet.net##.navbar
+pixnet.net##.tag-container-parent
+pypi.org###sticky-notifications
+scratch.mit.edu##.donate-banner.title-banner
+smallpdf.com##.cWFVfW.iekqw4-0
+teamsalvato.itch.io##.active_site_promotion_btn.browse_sales_btn.header_button
+thestanleyparable.fandom.com##.notifications-placeholder
+www.canva.com##.TeK5GQ
+www.canva.com##div.NqU4Yg.TSBL8g:nth-of-type(3)
+www.chess.com###main-banner
+www.chess.com###trial-modal
+www.chess.com##.diamond-top.sprite.nav-link-top-level.trial.nav-link-main-design.nav-link-component
+www.chess.com##.ready-to-play-banner-desktop.ready-to-play-banner-content
+www.dcard.tw##.b2rlo5n.d_ft_1q.d_h_1q.d_a5_hyeg3x.d_y5_ifev7s.d_2l_1a.d_ei_1h2ngc6.d_6r_1s.d_o4_1s.d_g6_1s.d_nf_2y
+www.dcard.tw##.r1tuv6db.d_ei_1r.d_h_1q.d_a5_1p
+www.deviantart.com##._2D30j._37cCW._16RrG._1jkTN.reset-link
+www.deviantart.com##._2Ee-T.v0vmd._3U8hI._3272G
+www.deviantart.com##._2LoZw._2y4EE._3tNAR.vvI-A.reset-link
+www.deviantart.com##._3ZaF3.reset-link
+www.deviantart.com##._3iL0x._3NKNR._3I-fJ.M9NOL._1VEw1._1jkTN.reset-link
+www.edx.org##.banner-display.position-relative.sitewide-banner
+www.edx.org##.xpert_chatbot
+www.facebook.com###mount_0_0_aI > div > div:nth-of-type(1) > .x1ja2u2z.x1n2onr6.x9f619 > div:nth-of-type(2)
+www.facebook.com##.x1u8a7rm.x17qophe.xixxii4.x1ye3gou.x1s14bel.xn6708d.x1xy6bms.xds687c.x9f619.xayqjjm.x1ey2m1c.x2bj2ny.x193iq5w.x2lah0s.xdt5ytf.x78zum5
+www.google.com###gbwa > .gb_f > .gb_d
+www.google.com##.FpfXM.zp6Lyf
+www.google.com##.SSwjIe.KxwPGc
+www.google.com##.XDyW0e
+www.google.com##.gb_Ff.gb_Pf.gb_A.gb_o
+www.google.com##a.MV3Tnb
+www.instagram.com##.x1azxncr
+www.instagram.com##.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1uhb9sk.xseo6mj.xo71vjh.x5pf9jr.x13lgxp2.x168nmei.x78zum5.xjbqb8w.x9f619
+www.instagram.com##.xdy9tzy > .x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x > .x1n2onr6
+www.instagram.com##.xh8yej3.x1iyjqo2 > div > .x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x > .x1n2onr6 > ._a6hd.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.xkhd6sd.x18d9i69.x4uap5.xexx8yu.x1mh8g0r.xat24cr.x11i5rnm.xdj266r.xe8uvvx.xt0psk2.x1ypdohk.x9f619.xm0m39n.x1qhh985.xcfux6l.x972fbf.x17r0tee.x1sy0etr.xd10rxx.x1ejq31n.xjbqb8w.x1i10hfl > .x9jhf4c.x30kzoy.xgqcy7u.x1lq5wgf.x1wj20lx.x12ldp4w.x11hdxyr.xs3sg5q.x9k3k5o.x1dejxi8.xdoji71.xzauu7c.x1lhsz42.x10djquj.x172qv1o.xif99yt.x1dn74xm.x159b3zp.x80pfx3.x1ye3gou.xsag5q8.xn6708d.xz9dl7a.x12dmmrz.x7nr27j.x6pnmvc.xo237n4.xjpr12u.xr9ek0c.x3nfvp2.x9f619
+www.instagram.com##div:nth-of-type(7) > .x1n2onr6 > .x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x > .x1n2onr6
+www.legis-pedia.com###policy-alert
+www.mediafire.com##.dl-box.ads > p
+www.mediafire.com##.lifetime-promo
+www.mediafire.com##.nopop.dl-promo-cont
+www.openstreetmap.org##.position-relative
+www.pixiv.net##.cugra.sc-4nj1pr-4
+www.pixiv.net##.fvDibl.sc-74lrq-0
+www.pixiv.net##.hRjbtI.sc-1m3vwgt-0
+www.pttweb.cc##.snqrsgxfuojn
+www.python.org##.notification-bar--survey.notification-bar
+www.twitch.tv##.chat-input.kILIqT.Layout-sc-1xcs6mc-0 > .Layout-sc-1xcs6mc-0
+www.twitch.tv##.kBtJDm.InjectLayout-sc-1i43xsx-0 > .cegTsp.ljgEdo.ScCoreButtonSecondary-sc-ocjdkq-2.ScCoreButton-sc-ocjdkq-0
+www.twitch.tv##.prime-offers.cwtKyw.Layout-sc-1xcs6mc-0 > .hatIYF.Layout-sc-1xcs6mc-0 .kBtJDm.InjectLayout-sc-1i43xsx-0 .eSFFfM.ScButtonIcon-sc-9yap0r-0.ljgEdo.ScCoreButton-sc-ocjdkq-0
+www.twitch.tv##.smarter-sort-callout.eOZOED.Layout-sc-1xcs6mc-0
+www.twitch.tv##.tw-root--theme-light.eya-dcy.fYOaHn.ScLayoutCssVars-sc-1pn65j5-0.Layout-sc-1xcs6mc-0
+www.twitch.tv##.tw-root--theme-light.eya-dcy.iarCNd.ScLayoutCssVars-sc-1pn65j5-0.Layout-sc-1xcs6mc-0
+www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(3)
+www.twitch.tv##div.side-nav-section.dcyYPL.Layout-sc-1xcs6mc-0:nth-of-type(4)
+x.com##.gt2-legacy-profile-automated
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-14lw9ot.css-175oi2r
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
+x.com##.r-1udh08x.r-1hycxz.r-10f7w94.r-aqfbo4.css-175oi2r
+x.com##.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r
+x.com##.r-3pj75a.r-1w6e6rj.r-18u37iz.css-175oi2r
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(2)
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(5)
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(7)
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
+x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(9)
+x.com##div.r-cpa5s6.r-14tvyh0.css-175oi2r:nth-of-type(3)
+zh.wikipedia.org##.vector-sitenotice-container
+! 2025年8月4日 https://www.google.com
+www.google.com##.B4GxFc.b0KoTc
+www.google.com##.fbar.kEjm2c
+
+! 移除聊天室頂部的「歡迎來到聊天室！請記得保護自己的隱私...」
+www.youtube.com##yt-live-chat-viewer-engagement-message-renderer
+
+! 2025年11月30日 https://www.youtube.com
+
+! 2025年12月27日 https://gemini.google.com
+gemini.google.com##.location-footer-textual
+
+! 2026年1月3日 https://www.instagram.com
+www.instagram.com##._ab8b
+www.instagram.com##.xhuyl8g.xl5mz7h > span.x1qrby5j.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.xv2umb2.x1jfb8zj.x1h9r5lt.x1h91t0o.x4k7w5x.x1vvkbs.x16tdsg8.x1hl2dhg.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.html-span > .x1n2onr6 > ._a6hd.x4gyw5p.x1a2a7pz.xggy1nq.x1hl2dhg.x16tdsg8.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.xat24cr.x14z9mp.xdj266r.x3ct3a4.xt0psk2.x1ypdohk.x9f619.x14e42zd.x1qhh985.x10w94by.x972fbf.xstzfhl.x1sy0etr.x18oe1m7.x1ejq31n.xjbqb8w.x1i10hfl > .x15x8krk.xde0f50.x5a5i1n.x1obq294.x1wj20lx.x1eunh74.x11hdxyr.x8st7rj.x9k3k5o.x1dejxi8.xdoji71.x10v4vz6.x1lhsz42.x4afuhf.x172qv1o.xif99yt.x1dn74xm.x159b3zp.x80pfx3.x1g0dm76.xsag5q8.xpdmqnj.xz9dl7a.x12dmmrz.x7nr27j.x6pnmvc.xo237n4.xjpr12u.xr9ek0c.x3nfvp2.x9f619
+www.instagram.com##.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.x1n2onr6.x5u0ere.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619.x1c1uobl.x18d9i69.xyri2b.xexx8yu.x1lziwak.x14z9mp.xdj266r.html-div
+
+! 2026年3月20日 https://www.startpage.com
+
+! 2026年4月14日 https://www.youtube.com
+
+! 2026年5月16日 https://www.youtube.com
+www.youtube.com##.you-chat-entrypoint-button.ytd-menu-renderer.style-scope.ytSpecButtonViewModelHost > .ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextHost > .ytSpecTouchFeedbackShapeTouchResponse.ytSpecTouchFeedbackShapeHost > .ytSpecTouchFeedbackShapeFill
+www.youtube.com##.you-chat-entrypoint-button.ytd-menu-renderer.style-scope.ytSpecButtonViewModelHost > .ytSpecButtonShapeNextEnableBackdropFilterExperiment.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextHost > .ytSpecTouchFeedbackShapeTouchResponse.ytSpecTouchFeedbackShapeHost > .ytSpecTouchFeedbackShapeStroke
+
+! 2026年5月28日 https://www.startpage.com
+www.startpage.com##.css-adglkl.dropdown-button
+
+! 2026年6月4日 https://www.startpage.com
+www.startpage.com##.eu3pp1u0.css-wdiap8
+
+! 2026年8月26日 https://www.startpage.com
+www.startpage.com##.css-13k8eon
+www.startpage.com##.css-6cjynv
+! 隱藏「複製嵌入程式碼」
+youtube.com##.ytp-popup.ytp-contextmenu .ytp-menuitem:has(.ytp-menuitem-label:has-text(複製嵌入程式碼))
+
+! 隱藏「複製偵錯資訊」
+youtube.com##.ytp-popup.ytp-contextmenu .ytp-menuitem:has(.ytp-menuitem-label:has-text(複製偵錯資訊))
+
+! 隱藏「排解播放問題」
+youtube.com##.ytp-popup.ytp-contextmenu .ytp-menuitem:has(.ytp-menuitem-label:has-text(排解播放問題))
+
+! 2026年9月20日 https://www.youtube.com
+www.youtube.com##.ytp-chapter-title-prefix
+www.youtube.com##.ytp-chapter-title-chevron
+! 隱藏 YouTube 影片播放器內 overlay 的按讚/分享浮動工具列 on9
+www.youtube.com##.ytPlayerQuickActionButtonsHostDisableBackdropFilter.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHost
