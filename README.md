@@ -78,7 +78,7 @@ I can't share the actual CSS — this is the part I've customized the most and d
 - YouTube Grid 5
 - 垃圾圓角 <--- My own css
 - 3 row Manage Channels Subscriptions - Jan 2024
-- DLLM sidebar咁撚大 (jm91.0.1) <--- My own css lol (Not going to Public)
+- DLLM sidebar咁撚大jm9 (1.0.1) <--- My own css lol (Not going to Public)
 - Focus by BlazingMedia for YouTube Music
 - More Thumbnails per row [YouTube] (1.2.5)
 - No Rounded YouTube
@@ -188,7 +188,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - YouTube Grid 5
 - 垃圾圓角 <-- 私人css
 - 3 row Manage Channels Subscriptions - Jan 2024
-- DLLM sidebar咁撚大 (jm91.0.1) <-- 私人css超好笑（不打算公開）
+- DLLM sidebar咁撚大jm9 (1.0.1) <-- 私人css超好笑（不打算公開）
 - Focus by BlazingMedia for YouTube Music
 - More Thumbnails per row [YouTube] (1.2.5)
 - No Rounded YouTube
@@ -209,7 +209,7 @@ This is just my personal script which may not be the best fit for you. Use it at
 - Youtube Studio 低評価非表示 (Hide low ratings on dashboard)
 - YouTube 側邊欄極致優化
 - YouTube 訂閱欄窄版 (1.0.5)
-- YouTube播放bar救星
+- YouTube播放bar救星 <-- 私人css
 - YT - Revert classic 'Subscribed' notification icon
 - YT Fixes (1.4.8)
 - 搜尋美化 <-- 私人css
